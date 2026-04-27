@@ -16,8 +16,8 @@ Ans : Here we create more than one constructor in the same class provided that t
 
 Q4. What is JDK ?
 
-Ans : It helps us to compile .java file to .class file.
+Ans : JDK stands for Java development kit. It helps us to compile .java file to .class file.
 
 Q5. What is JRE ?
 
-Ans : JRE helps us to run .class file.
+Ans : JRE stands for java runtime environment. It helps us to run .class file.
