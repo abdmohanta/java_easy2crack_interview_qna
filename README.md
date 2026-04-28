@@ -21,3 +21,26 @@ Ans : JDK stands for Java development kit. It helps us to compile .java file to 
 Q5. What is JRE ?
 
 Ans : JRE stands for java runtime environment. It helps us to run .class file.
+
+Q6 . What is New Keyword
+Ans : New keyword sends request to the class to create object.
+New keyword mandatorily calls constructor. Once object is created, then it gets its address and stores that in a reference variable.
+
+Q7 . What is This Keyword ?
+Ans : It is a special reference variable that holds object address. This keyword gets created automatically.
+This keyword points to current object running in the program.
+We cannot use this keyword inside static method.
+Using this keyword we can call constructor.
+
+Q8 .Constructor Chaining
+
+When we call a constructor from another constructor using this keyword then it is called Constructor Chaining.
+
+
+
+
+
+
+
+
+
