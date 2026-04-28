@@ -34,12 +34,14 @@ This keyword points to current object running in the program.
 We cannot use this keyword inside static method.
 Using this keyword we can call constructor.
 
-Q8 .Constructor Chaining
+Q8 . Constructor Chaining
 
 When we call a constructor from another constructor using this keyword then it is called Constructor Chaining.
 
 
+Q9 . Instance Variables
 
+Instance variables in Java are non-static variables which are defined in a class outside any method, constructor or block.
 
 
 
