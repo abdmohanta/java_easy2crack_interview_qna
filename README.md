@@ -107,9 +107,11 @@ II. Explicit Down Casting
 
 Q20 . What is Auto Up Casting ?
 
-Converting smaller data type to bigger data type is called Auto Up Casting. During auto up casting data loss does not happen.
+Ans : Converting smaller data type to bigger data type is called Auto Up Casting. During auto up casting data loss does not happen.
 
+Q21 . What is Explicit Down Casting
 
+Ans : Here we convert bigger data type to smaller data type. During explicit down casting, chances of data loss may happen.
 
 
 
