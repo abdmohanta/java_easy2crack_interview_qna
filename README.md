@@ -133,7 +133,9 @@ Q26 . Can I create static incomplete method in an interface?
 
 Ans: No. Interface does not support incomplete static method because static methods cannot be overridden.
 
-Q27 . 
+Q27 . What is abstraction?
+
+Ans: Hiding implementation details is called abstraction. The way we achieve this in Java is by using interface and abstract class.
 
 
 
