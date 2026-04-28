@@ -129,9 +129,11 @@ Q25 . What is Interface?
 
 Ans . Interface can consist of only incomplete methods in it.
 
+Q26 . Can I create static incomplete method in an interface?
 
+Ans: No. Interface does not support incomplete static method because static methods cannot be overridden.
 
-
+Q27 . 
 
 
 
