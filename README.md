@@ -34,17 +34,25 @@ This keyword points to current object running in the program.
 We cannot use this keyword inside static method.
 Using this keyword we can call constructor.
 
-Q8 . Constructor Chaining
+Q8 . What is Constructor Chaining ?
 
 When we call a constructor from another constructor using this keyword then it is called Constructor Chaining.
 
+Q9 . What is Instance Variables ?
 
-Q9 . Instance Variables
+Ans : Instance variables in Java are non-static variables which are defined in a class outside any method, constructor or block.
 
-Instance variables in Java are non-static variables which are defined in a class outside any method, constructor or block.
+Q10 . What is Static Variable ?
 
+Ans : Static variables can be accessed using class name.
+      Static variables can be accessed by static and non-static methods.
+      Static variable is like a global variable and is available to all methods.
 
+Q11 . What is Non-Static Variable ?
 
+Ans : Non-static variables can be accessed using instance of a class.
+      Non-static variables cannot be accessed inside a static method directly.
+      Non-static variable is like a local variable and can be accessed only through instance of a class.
 
 
 
