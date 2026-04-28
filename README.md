@@ -54,5 +54,31 @@ Ans : Non-static variables can be accessed using instance of a class.
       Non-static variables cannot be accessed inside a static method directly.
       Non-static variable is like a local variable and can be accessed only through instance of a class.
 
+Q12 . What is Inheritance ?
 
+Ans : Here we inherit the members from parent class to child class with an intention of reusing them.
+
+Q13 . What is Packages ?
+
+Ans : Packages are nothing but folders created in Java where programs can be stored in an organized manner.
+Packages resolve naming convention problem.
+
+Q14 . What is Advantages of Inheritance ?
+
+Ans : Inheritance minimizes identical code as it allows sharing of common code among subclasses.
+ Inheritance makes the code flexible to change.
+ With the help of inheritance, we can override the methods of base class.
+
+Q15 . What is Polymorphism ?
+
+Ans : Here we can develop a feature in a way that it can take more than one form.
+Polymorphism is applicable only on methods.
+
+There are two ways we can achieve polymorphism:
+i) Overriding
+ii) Overloading
+
+Q16 . What is Overriding?
+
+Ans : Here we inherit a method from parent class and modify its logic in child class by once again creating same method in child class.
 
