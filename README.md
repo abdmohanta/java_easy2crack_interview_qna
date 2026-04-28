@@ -82,3 +82,53 @@ Q16 . What is Overriding?
 
 Ans : Here we inherit a method from parent class and modify its logic in child class by once again creating same method in child class.
 
+Advantages of Polymorphism (Overriding)
+
+If we inherit 10 methods but want to modify logic of some methods, then the option is overriding.
+
+@Override
+@Override annotation checks whether overriding is happening or not. If not, then it reports an error.
+
+Q17. Can we override static method?
+
+Ans: No. In Java static members are not overridden (they are hidden), because overriding is based on inheritance of instance methods.
+
+Q18. What is Overloading ?
+
+Ans: Developing more than one method in the same class provided that they have different number of arguments or different types of arguments is called Overloading.
+
+Q19. Type Casting / Data Type
+
+Ans: Converting particular data type into required data type is called type casting.
+
+There are two types:
+I. Auto Up Casting
+II. Explicit Down Casting
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
