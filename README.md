@@ -109,13 +109,17 @@ Q20 . What is Auto Up Casting ?
 
 Ans : Converting smaller data type to bigger data type is called Auto Up Casting. During auto up casting data loss does not happen.
 
-Q21 . What is Explicit Down Casting
+Q21 . What is Explicit Down Casting?
 
 Ans : Here we convert bigger data type to smaller data type. During explicit down casting, chances of data loss may happen.
 
+Q22 . What is Class Up Casting?
 
+Ans . Here we store child class object address into parent class reference variable.
 
+Q23 . What is Class Down Casting ?
 
+Ans . Here we store parent class reference into child class reference variable (after proper casting).
 
 
 
