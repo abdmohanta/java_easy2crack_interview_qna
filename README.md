@@ -23,10 +23,12 @@ Q5. What is JRE ?
 Ans : JRE stands for java runtime environment. It helps us to run .class file.
 
 Q6 . What is New Keyword
+
 Ans : New keyword sends request to the class to create object.
 New keyword mandatorily calls constructor. Once object is created, then it gets its address and stores that in a reference variable.
 
 Q7 . What is This Keyword ?
+
 Ans : It is a special reference variable that holds object address. This keyword gets created automatically.
 This keyword points to current object running in the program.
 We cannot use this keyword inside static method.
