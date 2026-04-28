@@ -121,9 +121,13 @@ Q23 . What is Class Down Casting ?
 
 Ans . Here we store parent class reference into child class reference variable (after proper casting).
 
+Q24 . What is Run-Time Polymorphism?
 
+Ans . In run-time polymorphism we perform overriding with class upcasting.
 
+Q25 . What is Interface?
 
+Ans . Interface can consist of only incomplete methods in it.
 
 
 
