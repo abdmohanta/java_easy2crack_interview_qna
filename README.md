@@ -105,7 +105,9 @@ There are two types:
 I. Auto Up Casting
 II. Explicit Down Casting
 
+Q20 . What is Auto Up Casting ?
 
+Converting smaller data type to bigger data type is called Auto Up Casting. During auto up casting data loss does not happen.
 
 
 
