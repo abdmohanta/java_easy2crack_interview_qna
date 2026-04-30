@@ -145,7 +145,8 @@ When abstract keyword is applied on a class then it means class is incomplete.
 
 Note: In Java, at interface level multiple inheritance is possible but at class level it is not possible.
 
-
+Q29. What is Marker Interface?
+Ans- An empty interface is called as marker interface.
 
 
 
