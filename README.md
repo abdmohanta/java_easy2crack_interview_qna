@@ -155,8 +155,15 @@ Ans : If we make variable final then its value cannot be changed. If we make sta
 then initialization is mandatory. If we make a method final then overriding is not allowed.
  If we make class as final then inheritance of that class is not allowed.
 
-Q31. 
+Q31. Explain Java 8 new features.
 
+Ans – Default Keyword: Default keyword was introduced in version 8 of java using which we can develop complete method in an interface. Functional Interface: It should consist of only one incomplete method in it.
+
+In a functional Interface we can have any number of default methods but incomplete method should be only one.
+Lamdas Expression: The advantage of lamdas expression is we can reduce number of times of code.
+
+Note:
+As we can access non-static member of the class using lamdas expression, it is also functional programming language since 1.8version of java.
 
 
 
