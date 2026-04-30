@@ -137,7 +137,13 @@ Q27 . What is abstraction?
 
 Ans: Hiding implementation details is called abstraction. The way we achieve this in Java is by using interface and abstract class.
 
+Q28. What is Abstract Keyword?
 
+Ans: When applied on a method it defines that the method is incomplete.
+In an interface we can create incomplete method without using abstract keyword. Uses of abstract keyword here is optional.
+When abstract keyword is applied on a class then it means class is incomplete.
+
+Note: In Java, at interface level multiple inheritance is possible but at class level it is not possible.
 
 
 
