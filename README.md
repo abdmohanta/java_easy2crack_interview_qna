@@ -146,11 +146,16 @@ When abstract keyword is applied on a class then it means class is incomplete.
 Note: In Java, at interface level multiple inheritance is possible but at class level it is not possible.
 
 Q29. What is Marker Interface?
+
 Ans- An empty interface is called as marker interface.
 
+Q30. What is Final Keywords ?
 
+Ans : If we make variable final then its value cannot be changed. If we make static/no-static variable final
+then initialization is mandatory. If we make a method final then overriding is not allowed.
+ If we make class as final then inheritance of that class is not allowed.
 
-
+Q31. 
 
 
 
