@@ -185,6 +185,23 @@ allowed. Abstract classes do not support multiple inheritances.
 
 In an abstract class we can create static variable as well as no static variable.
 
+Q33. What is Data Hiding?
+
+Ans- Here we make variable private so that it can’t be accessed outside the class.
+
+Q34. What is Unary Operator
+
+Ans- In java, the unary operator is an operator that can be used only with an operand. It is used to represent the positive or negative value, increment/decrement the value by 1 and complement a Boolean value.
+
+
+
+
+
+
+
+
+
+
 
 
 
