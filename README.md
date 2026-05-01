@@ -171,9 +171,19 @@ create object in java using new keyword.
 
 
 
+______________________________________________________________Page-2________________________________________________________
 
 
 
+Q32. What is Abstract Class?
+
+Ans : An abstract class can consist of both complete and incomplete method.
+To define incomplete method in abstract class usage of abstract keyword is mandatory.
+
+In an abstract class, we can create main method. Creating object in abstract class is not
+allowed. Abstract classes do not support multiple inheritances.
+
+In an abstract class we can create static variable as well as no static variable.
 
 
 
