@@ -194,9 +194,11 @@ Q34. What is Unary Operator
 Ans- In java, the unary operator is an operator that can be used only with an operand. It is used to represent the positive or negative value, increment/decrement the value by 1 and complement a Boolean value.
 
 
+Q35. What is Scanner Class?
 
+Ans: Whenever a user wants to give input via keyboard, in java there is inbuilt class Called as a Scanner Class.
 
-
+Q36. 
 
 
 
