@@ -165,5 +165,22 @@ Lamdas Expression: The advantage of lamdas expression is we can reduce number of
 Note:
 As we can access non-static member of the class using lamdas expression, it is also functional programming language since 1.8version of java.
 
+When we create object to access non static member it becomes object
+oriented programming language. We
+create object in java using new keyword.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
