@@ -214,47 +214,7 @@ Q38. Access Specifier:
 
 
 
-Static methods in interfaces must have a body
 
-Abstract + static combination is not allowed
-
-📌 Abstraction
-Hiding implementation details and showing only functionality.
-
-👉 Achieved using:
-
-Interface
-
-Abstract class
-
-📌 Abstract Keyword
-Applied on method → method becomes abstract (no body)
-
-Applied on class → class becomes abstract
-
-👉 Note:
-
-Interface methods are abstract by default
-
-📌 Multiple Inheritance
-❌ Not supported in classes
-
-✅ Supported using interfaces
-
-📌 Marker Interface
-Empty interface (no methods)
-
-Example: Serializable
-
-📌 Final Keyword
-Final variable → value cannot change
-
-Final method → cannot be overridden
-
-Final class → cannot be inherited
-
-📌 Java 8 Features
-1. Default Method
 Allows method with body inside interface
 
 2. Functional Interface
