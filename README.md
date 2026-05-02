@@ -203,4 +203,10 @@ Ans: Bundling of data with methods which operate on that data avoiding direct ac
 
 Q37. What is the Differences between interface and abstract class.
 
+
+
 Q38. Access Specifier:
+
+
+
+
