@@ -210,3 +210,724 @@ Q38. Access Specifier:
 
 
 
+
+
+Java All notes (1).pdf
+PDF
+Extract all content from first 4 page and make typo error fix, if concept error is there for a particular part correct that then give page wise now page 1
+
+Here is Page 1 – cleaned, typo-fixed, and concept-corrected version of your notes.
+
+✅ Page 1 – Corrected Java Notes
+📌 What is Java?
+Java is a high-level, object-oriented, robust, secure, platform-independent, portable, and multithreaded programming language.
+It was developed by James Gosling in 1991.
+
+👉 Java is also called a platform because it provides:
+
+JRE (Java Runtime Environment)
+
+API (Application Programming Interface)
+
+📌 Constructor
+A constructor must have the same name as the class.
+
+It is automatically called when an object is created.
+
+Constructors do not have a return type (not even void).
+
+Used to initialize object values.
+
+We can create multiple constructors using overloading.
+
+📌 Constructor Overloading
+Creating multiple constructors in the same class with:
+
+Different number of parameters, or
+
+Different types of parameters
+
+📌 JDK vs JRE
+JDK (Java Development Kit) → Used to compile .java → .class
+
+JRE (Java Runtime Environment) → Used to run .class files
+
+📌 new Keyword
+Used to create objects
+
+It calls the constructor
+
+Allocates memory and returns reference (address) of object
+
+📌 this Keyword
+Special reference variable that points to current object
+
+Automatically created by JVM
+
+Cannot be used inside static methods
+
+Can be used to:
+
+Access instance variables
+
+Call another constructor (this())
+
+📌 Constructor Chaining
+Calling one constructor from another constructor using this().
+
+📌 Instance Variables
+Declared inside class but outside methods
+
+Also called non-static variables
+
+📌 Static Variables
+Declared using static keyword
+
+Access using class name
+
+Shared across all objects
+
+Can be accessed by both:
+
+Static methods
+
+Non-static methods
+
+📌 Non-Static Variables
+Access using object reference
+
+Cannot be directly accessed inside static methods
+
+Each object has its own copy
+
+📌 Inheritance
+Mechanism where child class acquires properties of parent class
+
+Used for code reusability
+
+📌 Packages
+Packages are folders used to organize Java classes
+
+Help avoid naming conflicts
+
+📌 Advantages of Inheritance
+Reduces code duplication
+
+Improves code reusability
+
+Allows method overriding
+
+Makes code flexible and maintainable
+
+📌 Polymorphism
+Ability of a method to take multiple forms
+
+👉 Types:
+
+Method Overloading (Compile-time)
+
+Method Overriding (Run-time)
+
+📌 Method Overriding
+Redefining parent class method in child class
+
+Must have same method signature
+
+📌 @Override Annotation
+Ensures method is correctly overridden
+
+Gives compile-time error if not
+
+📌 Can we override static methods?
+❌ No
+
+👉 Correct Concept:
+
+Static methods are not overridden, they are hidden (method hiding)
+
+📌 Method Overloading
+Same method name
+
+Different:
+
+Number of arguments OR
+
+Type of arguments
+
+📌 Type Casting
+Converting one data type to another.
+
+👉 Types:
+
+Upcasting (Implicit) → Smaller → Bigger (safe)
+
+Downcasting (Explicit) → Bigger → Smaller (may cause data loss)
+
+📌 Class Type Casting
+Upcasting → Child → Parent reference
+
+Downcasting → Parent → Child reference (explicit)
+
+📌 Runtime Polymorphism
+Achieved using:
+
+Method overriding
+
+Upcasting
+
+📌 Interface
+Contains abstract methods (by default)
+
+Supports multiple inheritance
+
+📌 Can interface have static abstract methods?
+❌ No
+
+👉 Correct Concept:
+
+Static methods in interfaces must have a body
+
+Abstract + static combination is not allowed
+
+📌 Abstraction
+Hiding implementation details and showing only functionality.
+
+👉 Achieved using:
+
+Interface
+
+Abstract class
+
+📌 Abstract Keyword
+Applied on method → method becomes abstract (no body)
+
+Applied on class → class becomes abstract
+
+👉 Note:
+
+Interface methods are abstract by default
+
+📌 Multiple Inheritance
+❌ Not supported in classes
+
+✅ Supported using interfaces
+
+📌 Marker Interface
+Empty interface (no methods)
+
+Example: Serializable
+
+📌 Final Keyword
+Final variable → value cannot change
+
+Final method → cannot be overridden
+
+Final class → cannot be inherited
+
+📌 Java 8 Features
+1. Default Method
+Allows method with body inside interface
+
+2. Functional Interface
+Interface with exactly one abstract method
+
+3. Lambda Expression
+Used to reduce code
+
+Enables functional programming
+
+⚠️ Concept Fixes Done (Important)
+❌ “Constructor is void” → ✅ No return type (not even void)
+
+❌ “Static methods not inherited” → ✅ Inherited but not overridden (method hiding)
+
+❌ “Interface only incomplete methods” → ✅ Can have default & static methods
+
+❌ Grammar + clarity improved across all definitions
+
+📄 Source: 
+
+ (Page 1)
+
+If you want, I’ll now give Page 2 cleaned + corrected in same format 👍
+
+
+Do not modify give as it is
+
+Got it 👍 — here is Page 1 EXACT content (no corrections, no modifications) from your PDF:
+
+📄 Page 1 (As It Is)
+JAVA NOTES Core Java (Only Theory part)
+
+Q1. What is Java?
+Java is the high-level, object-oriented, robust,
+secure programming language, platform-independent, high Performance , Multithreaded,
+and portable programming language. It was
+developed by James Gosling in June 1991. It can
+also be known as the platform as it provides its
+own JRE and API.
+
+Constructor
+ Constructors should have same name
+as that of class.
+ Whenever an object is created
+constructor is being called.
+ Constructors are permanently void and
+hence they cannot return any value.
+ Because it is void we can only use
+keywords in it.
+ Supplying values to constructor, then
+yes we can create multiple
+constructors.
+ In constructor, method name and class
+name can be same.
+
+Constructor Overloading
+Here we create more than one constructor in the
+same class provided that they have different
+number of arguments or different types of
+arguments.
+
+JDK - It helps us to compile .java file to .class file.
+JRE - JRE helps us to run .class file.
+
+New Keywords
+ It sends request to the class to create
+object.
+ New keywords mandatorily call
+constructors.
+ Once object is created, then it gets its
+address and stores that in a reference
+variable.
+
+This Keyword
+ It is a special reference variable that
+holds object address. This keyword
+creates automatically.
+ This keyword points to current object
+running in the program.
+ We cannot use This keyword inside
+static method.
+ Using This keyword we can call
+constructor.
+
+Constructor Chaining
+When we call a constructor from another
+constructor using This keyword then it is called as
+Constructor Chaining.
+
+Instance Variables
+Instance variables in java are non-static variable
+which are define in a class outside any method,
+constructor or a block.
+
+Static Variable
+ Static Variables can be accessed using
+class name.
+ Static variables can be accessed by
+static & non-Static method
+ Static Variables is like a global variable
+and is available to all method.
+
+Non-Static Variable
+ Non-static variables can be accessed using
+instance of a class.
+ Non-Static variables cannot be accessed
+inside a static method.
+ Non-Static variable is a like local variable
+and they can be accessed through only
+instance of a class.
+
+Inheritance
+Here we inherit the member from parent class to
+child class with an intension of reusing it.
+
+Packages
+Packages are nothing but folder created in java where
+programs can be stored in an organized manner.
+Packages resolve naming convention problem.
+
+Advantages of Inheritance
+ Inheritance minimizes the identical code as
+it allows sharing of the common code
+among other subclass.
+ Inheritance makes the code flexible to
+change.
+ With the help of inheritance, we can
+override the methods of the base class.
+
+Polymorphism
+Here we can develop a feature in a way that it can
+take more than one form.
+Polymorphism is applicable only on method.
+There are two ways we can achieve polymorphism-
+i)Overriding
+ii) Overloading
+
+Overriding
+Here we inherit a method from parent class and
+modify its logic in child class by once again creating
+same method in child class.
+
+Advantages of Polymorphism
+Overriding
+If we inherit 10 methods but some methods logic if
+we modify then the option to do that is Overriding.
+
+@Override
+@Override annotation checks whether overriding is
+happening or not if not then it report an error.
+
+Q2. Can we override static method?
+Ans- No. In java static members are never inherited
+and if inheritance cannot happen then overriding also
+cannot happen because Overriding is add on features
+of Inheritance.
+
+Overloading
+Developing more than one method in the same class
+provided that they have different number of
+arguments or different types of arguments then it is
+called as Overloading.
+
+Type Casting/Data Type
+Converting particular data type into required data
+type is called as type casting.
+There are two types-
+I. Auto Up casting
+II. Explicit Down casting
+
+Auto Up Casting
+Converting smaller data type to bigger data type is
+called as Auto Up Casting. During Auto up casting
+data loss should not happen.
+
+Explicit Down Casting
+Here we convert bigger data type to smaller data
+type. During explicit down casting, there are
+chances of data loss might happen.
+
+Class Up Casting
+Here we store child class object address into
+parent class reference variable.
+
+Class Down Casting
+Here we store parent class object address into
+child class reference variable.
+
+Run-Time-Polymorphism
+In run-time-polymorphism we perform overriding
+with class upcasting.
+
+Interface
+Interface can consist of only incomplete method
+in it.
+
+Q3. Can I create static incomplete
+method in an interface?
+Ans- Interface does not support incomplete static
+method because overriding of that is not possible.
+
+Q4. What is abstraction?
+Ans- Hiding of implementation details is called as
+abstraction. The way we achieve this in java is by
+using interface and abstract class.
+
+Abstract Keyword
+When applied on a method it defines that the
+method is incomplete.
+In an interface we can create incomplete method
+e1 without using abstract keyword. Uses of
+abstract keyword here is optional.
+When abstract keyword is applied on a class then
+it means class is incomplete.
+
+Note: In Java, at interface level multiple
+inheritance is possible but at class level it is not
+possible.
+
+Q5. What is Marker Interface?
+Ans- An empty interface is called as marker
+interface.
+
+Final Keywords
+ If we make variable final then its value
+cannot be changed.
+ If we make static/no-static variable final
+then initialization is mandatory.
+ If we make a method final then
+overriding is not allowed.
+ If we make class as final then
+inheritance of that class is not allowed.
+
+Q6. Explain Java 8 new features.
+Ans – Default Keyword: Default keyword was
+introduced in version 8 of java using which we can
+develop complete method in an interface.
+
+Functional Interface: It should consist of only one
+incomplete method in it.
+
+In a functional Interface we can have any number
+of default methods but incomplete method
+should be only one.
+
+Lamdas Expression: The advantage of lamdas
+expression is we can reduce number of times of
+code.
+
+Note:
+ As we can access non-static member of
+the class using lamdas expression, it is
+also functional programming language
+since 1.8version of java.
+
+📄 Source: 
+
+
+Tell me when to give Page 2 (same format, no modification) 👍
+
+
+Page 2
+
+Here is Page 2 EXACT content (no corrections, no modifications) from your PDF:
+
+📄 Page 2 (As It Is)
+ When we create object to access non
+static member it becomes object
+oriented programming language. We
+create object in java using new keyword.
+
+Abstract Class
+ An abstract class can consist of both
+complete and incomplete method.
+ To define incomplete method in
+abstract class usage of abstract
+keyword is mandatory.
+ In an abstract class, we can create main
+method.
+ Creating object in abstract class is not
+allowed.
+ Abstract classes do not support multiple
+inheritances.
+ In an abstract class we can create static
+variable as well as no static variable.
+
+Q. What is Data Hiding?
+Ans- Here we make variable private so that it can’t
+be accessed outside the class.
+
+Unary Operator
+In java, the unary operator is an operator that can
+be used only with an operand. It is used to
+represent the positive or negative value,
+increment/decrement the value by 1 and
+complement a Boolean value.
+
+Scanner Class
+Whenever a user wants to give input via keyboard,
+in java there is inbuilt class Called as a Scanner
+Class.
+
+Encapsulation
+Bundling of data with methods which operate on
+that data avoiding direct access to the variable is
+called Encapsulation.
+To avoid direct access to the variable we makes
+variable private and to operate on those variable
+we create getter and setter.
+
+Differences between interface and
+abstract class.
+
+Interface Abstract Class
+Interface can contain Abstract class can
+only abstract contain both complete
+methods. and incomplete method.
+
+Every variable in an Abstract class can be 0
+interface is static and to 100% incomplete.
+final
+
+Interface support Abstract class do not
+multiple inheritance. support multiple
+inheritance
+
+Interfaces are 100%
+incomplete.
+
+An interface can
+consist of main
+method in version 8
+of java onward.
+
+Access Specifier:
+
+Variable/Method:
+ If we make variable/method private then
+it can be accessed only in same class.
+ If we make variable/method default then
+can be accessed in same class and same
+package only.
+ If we make variable/method protected
+then can be accessed in same class and
+same package and different package only
+through inheritance.
+ If we make variable/method public then can
+be accessed in same class and same
+package and different package also.
+
+Class:
+ A class can’t be private /protected.
+ If a class is public then it can be accessed in
+same package/different package.
+ If a class is default then it can be accessed
+in same package only.
+
+Constructor:
+ If we make constructor private then its
+object can be created only in same class but
+in different class.
+ If we make constructor default then its
+object can be created in same package but
+not in different package.
+ If we make constructor protected then its
+object can be created in same package but
+not in different package.
+ If we make constructor public then its
+object can be created in same package and
+in different package also.
+
+Access Specifier(VIP)
+
+Private: The access level of a private modifier is only
+within the class. It cannot be accessed from outside the
+class.
+
+Default: The access level of a default modifier is only
+within the package. It cannot be accessed from outside the
+package. If you do not specify any access level, it will be the
+default.
+
+Protected: The access level of a protected modifier is
+within the package and outside the package through child
+class. If you do not make the child class, it cannot be
+accessed from outside the package.
+
+Public: The access level of a public modifier is everywhere.
+It can be accessed from within the class, outside the class,
+within the package and outside the package.
+
+IIB- Instant Initialization Block
+ IIBs are executed when objects are
+created.
+ No. of times we create an object, same
+no. of times IIB will be called.
+ IIBs are used to initialize all the instance
+variable in one place and that give us
+better readability of the code.
+ We can initialize both static and non static
+variable inside IIB.
+
+SIB- Static Initialization Block
+ SIB runs before main method and it does
+not require any invoking statement.
+ We can not initialize non static variable
+inside SIB.
+ We can create an object inside SIB.
+
+Super Keyword
+ Using Super Keyword, we can access the
+member of parent class.
+ Using super keyword, we can access static
+and non static member both.
+ Super keyword can not be used inside static
+context.
+ We can use super keyword only when
+inheritance is happening otherwise we
+cannot use super keyword.
+
+File Handling:
+Exist(), delete(), createNewFile(), mkdir()(to create
+new folder), length()(to checks character in a file),
+list()(to give all file name In the given path),
+FileReader(to read file content),.
+
+Mutable: Mutable is something wherein the
+class object properties keeps on changing.
+
+Exception:
+Whenever a bad input is given then it stops the
+program updroply and that is called as exception.
+
+To handle exception in java we use try and catch
+block.
+
+When any line of code in try block causes
+exception then try block
+create exception object and that exception object
+address is given
+To catch block . Catch block will now suppress the
+exception and once the exception is suppressed,
+the further code will continue to execution .
+
+To get exact line number where exception occurs
+we use printStackTrace.
+
+Types of exception:
+i)Run time exception (Unchecked Exception ): If
+we get exception while running .class file then it is
+called as run time exception. e.g.
+-Arithmetic Exception
+-NullPointer Exception
+-Numberformat Exception
+-ArrayIndexOutOf Bound Exception
+-classCasting Exception
+
+ii)Compile time exception (checked exception): If
+an exception occurs when .java file is converted to
+.class file then it is called as compile time
+exception .e.g.
+-SQL Exception
+-IO Exception
+-FileNot Found Exception
+-ClassNotFound Exception
+
+Q. Which is super most class in java?
+Ans- Super most class in java is object.
+
+Array:
+Array in java is a special object with continuous
+block of memory to store collection of data in it.
+
+In java, an array of length zero can be created but
+no value can be stored in it.
+
+It is not mandatory to initialize array. If not
+initialized then depending on data type default
+value get stored in it.
+
+Main method Signature:
+Args in main method is a variable which is a user
+defined. It is a method argument of the type array
+and it can have any name.
+
+String args in main method is used to receive
+command line arguments.
+
+Immutable: Immutable class once its object is
+created then its state can not be alter.
+
+Steps to create immutable class:
+-create a final class.
+-Set the values of the properties using only
+constructor.
+-Make the properties as final
+-Do not provide any setters for these properties.
+
+Note:
+The area where these immutable objects are
+being created that area is called as String
+Constant Pool.
+
+Trim- to remove blank space
