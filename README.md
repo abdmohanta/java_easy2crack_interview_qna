@@ -212,67 +212,6 @@ Q38. Access Specifier:
 
 
 
-Java All notes (1).pdf
-PDF
-Extract all content from first 4 page and make typo error fix, if concept error is there for a particular part correct that then give page wise now page 1
-
-Here is Page 1 – cleaned, typo-fixed, and concept-corrected version of your notes.
-
-✅ Page 1 – Corrected Java Notes
-📌 What is Java?
-Java is a high-level, object-oriented, robust, secure, platform-independent, portable, and multithreaded programming language.
-It was developed by James Gosling in 1991.
-
-👉 Java is also called a platform because it provides:
-
-JRE (Java Runtime Environment)
-
-API (Application Programming Interface)
-
-📌 Constructor
-A constructor must have the same name as the class.
-
-It is automatically called when an object is created.
-
-Constructors do not have a return type (not even void).
-
-Used to initialize object values.
-
-We can create multiple constructors using overloading.
-
-📌 Constructor Overloading
-Creating multiple constructors in the same class with:
-
-Different number of parameters, or
-
-Different types of parameters
-
-📌 JDK vs JRE
-JDK (Java Development Kit) → Used to compile .java → .class
-
-JRE (Java Runtime Environment) → Used to run .class files
-
-📌 new Keyword
-Used to create objects
-
-It calls the constructor
-
-Allocates memory and returns reference (address) of object
-
-📌 this Keyword
-Special reference variable that points to current object
-
-Automatically created by JVM
-
-Cannot be used inside static methods
-
-Can be used to:
-
-Access instance variables
-
-Call another constructor (this())
-
-📌 Constructor Chaining
 Calling one constructor from another constructor using this().
 
 📌 Instance Variables
