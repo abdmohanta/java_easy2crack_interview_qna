@@ -212,45 +212,6 @@ Q38. Access Specifier:
 
 
 
-Calling one constructor from another constructor using this().
-
-📌 Instance Variables
-Declared inside class but outside methods
-
-Also called non-static variables
-
-📌 Static Variables
-Declared using static keyword
-
-Access using class name
-
-Shared across all objects
-
-Can be accessed by both:
-
-Static methods
-
-Non-static methods
-
-📌 Non-Static Variables
-Access using object reference
-
-Cannot be directly accessed inside static methods
-
-Each object has its own copy
-
-📌 Inheritance
-Mechanism where child class acquires properties of parent class
-
-Used for code reusability
-
-📌 Packages
-Packages are folders used to organize Java classes
-
-Help avoid naming conflicts
-
-📌 Advantages of Inheritance
-Reduces code duplication
 
 Improves code reusability
 
