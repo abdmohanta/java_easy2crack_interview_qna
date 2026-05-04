@@ -316,41 +316,36 @@ e.g.
 -FileNot Found Exception
 -ClassNotFound Exception
 
+
 Q. Which is super most class in java?
+
 Ans- Super most class in java is object.
 
-Array:
-Array in java is a special object with continuous
-block of memory to store collection of data in it.
+What is Array?
 
-In java, an array of length zero can be created but
-no value can be stored in it.
+Ans: Array in java is a special object with continuous block of memory to store collection of data in it.
 
-It is not mandatory to initialize array. If not
-initialized then depending on data type default
-value get stored in it.
+In java, an array of length zero can be created but no value can be stored in it.
+
+It is not mandatory to initialize array. If not initialized then depending on data type default value get stored in it.
 
 Main method Signature:
-Args in main method is a variable which is a user
-defined. It is a method argument of the type array
-and it can have any name.
+      --> Args in main method is a variable which is a user defined. It is a method argument of the type array and it can have any name.
 
-String args in main method is used to receive
-command line arguments.
+--> String args in main method is used to receive command line arguments.
 
-Immutable: Immutable class once its object is
-created then its state can not be alter.
+What is Immutable?
 
-Steps to create immutable class:
+Ans : Immutable class once its object is created then its state can not be alter.
+
+What are the Steps to create immutable class?
+
+Ans : 
 -create a final class.
--Set the values of the properties using only
-constructor.
--Make the properties as final
+-Set the values of the properties using only constructor.
+-Make the properties as final.
 -Do not provide any setters for these properties.
 
 Note:
-The area where these immutable objects are
-being created that area is called as String
-Constant Pool.
+The area where these immutable objects are being created that area is called as String Constant Pool.
 
-Trim- to remove blank space
