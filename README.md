@@ -234,18 +234,10 @@ Q38. Access Specifier:
 Access Specifier:
 
 Variable/Method:
- If we make variable/method private then
-it can be accessed only in same class.
- If we make variable/method default then
-can be accessed in same class and same
-package only.
- If we make variable/method protected
-then can be accessed in same class and
-same package and different package only
-through inheritance.
- If we make variable/method public then can
-be accessed in same class and same
-package and different package also.
+If we make variable/method private then it can be accessed only in same class.
+If we make variable/method default then can be accessed in same class and same package only.
+If we make variable/method protected then can be accessed in same class and same package and different package only through inheritance.
+If we make variable/method public then can be accessed in same class and same package and different package also.
 
 Class:
  A class can’t be private /protected.
