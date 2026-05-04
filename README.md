@@ -252,58 +252,37 @@ If we make constructor public then its object can be created in same package and
 
 Access Specifier(VIP)
 
-Private: The access level of a private modifier is only
-within the class. It cannot be accessed from outside the
-class.
+Private: The access level of a private modifier is only within the class. It cannot be accessed from outside the class.
 
-Default: The access level of a default modifier is only
-within the package. It cannot be accessed from outside the
-package. If you do not specify any access level, it will be the
-default.
+Default: The access level of a default modifier is only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.
 
-Protected: The access level of a protected modifier is
-within the package and outside the package through child
-class. If you do not make the child class, it cannot be
-accessed from outside the package.
+Protected: The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.
 
-Public: The access level of a public modifier is everywhere.
-It can be accessed from within the class, outside the class,
-within the package and outside the package.
+Public: The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class, within the package and outside the package.
 
-IIB- Instant Initialization Block
- IIBs are executed when objects are
-created.
- No. of times we create an object, same
-no. of times IIB will be called.
- IIBs are used to initialize all the instance
-variable in one place and that give us
-better readability of the code.
- We can initialize both static and non static
-variable inside IIB.
+IIB- Instant Initialization Block >> IIBs are executed when objects are created.
+Number of times we create an object, same number of times IIB will be called.
+IIBs are used to initialize all the instance variable in one place and that give us better readability of the code.
+
+We can initialize both static and non static variable inside IIB.
 
 SIB- Static Initialization Block
- SIB runs before main method and it does
-not require any invoking statement.
- We can not initialize non static variable
-inside SIB.
- We can create an object inside SIB.
+SIB runs before main method and it does not require any invoking statement. We can not initialize non static variable
+inside SIB. We can create an object inside SIB.
 
-Super Keyword
- Using Super Keyword, we can access the
-member of parent class.
- Using super keyword, we can access static
-and non static member both.
- Super keyword can not be used inside static
-context.
- We can use super keyword only when
-inheritance is happening otherwise we
-cannot use super keyword.
+What is Super Keyword ?
+Ans : Using Super Keyword, we can access the member of parent class.
+Using super keyword, we can access static and non static member both.
 
-File Handling:
-Exist(), delete(), createNewFile(), mkdir()(to create
-new folder), length()(to checks character in a file),
-list()(to give all file name In the given path),
-FileReader(to read file content),.
+Super keyword can not be used inside static context.
+We can use super keyword only when inheritance is happening otherwise we cannot use super keyword.
+
+What is File Handling?
+
+Ans : Exist(), delete(), createNewFile(), mkdir()(to create new folder), length()(to checks character in a file), list()(to give all file name In the given path), FileReader(to read file content),.
+
+
+
 
 Mutable: Mutable is something wherein the
 class object properties keeps on changing.
