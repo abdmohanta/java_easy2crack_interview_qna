@@ -282,43 +282,35 @@ What is File Handling?
 Ans : Exist(), delete(), createNewFile(), mkdir()(to create new folder), length()(to checks character in a file), list()(to give all file name In the given path), FileReader(to read file content),.
 
 
+What is Mutable?
+Ans : Mutable is something wherein the class object properties keeps on changing.
 
+What is Exception?
 
-Mutable: Mutable is something wherein the
-class object properties keeps on changing.
+Ans: Whenever a bad input is given then it stops the program updroply and that is called as exception.
 
-Exception:
-Whenever a bad input is given then it stops the
-program updroply and that is called as exception.
+To handle exception in java we use try and catch block, throws and throw keyword.
 
-To handle exception in java we use try and catch
-block.
-
-When any line of code in try block causes
-exception then try block
-create exception object and that exception object
-address is given
-To catch block . Catch block will now suppress the
-exception and once the exception is suppressed,
+When any line of code in try block causes exception then try block create exception object and that exception object address is given To catch block . Then Catch block will now suppress the exception and once the exception is suppressed,
 the further code will continue to execution .
 
-To get exact line number where exception occurs
-we use printStackTrace.
+To get exact line number where exception occurs we use printStackTrace.
 
-Types of exception:
-i)Run time exception (Unchecked Exception ): If
-we get exception while running .class file then it is
-called as run time exception. e.g.
+What are the Types of exceptions?
+
+Ans: 
+i)Run time exception (Unchecked Exception ): If we get exception while running .class file then it is called as run time exception.
+
+e.g.
 -Arithmetic Exception
 -NullPointer Exception
 -Numberformat Exception
 -ArrayIndexOutOf Bound Exception
 -classCasting Exception
 
-ii)Compile time exception (checked exception): If
-an exception occurs when .java file is converted to
-.class file then it is called as compile time
-exception .e.g.
+ii)Compile time exception (checked exception): If an exception occurs when .java file is converted to .class file then it is called as compile time exception.
+
+e.g.
 -SQL Exception
 -IO Exception
 -FileNot Found Exception
