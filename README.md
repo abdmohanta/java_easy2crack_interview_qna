@@ -240,25 +240,15 @@ If we make variable/method protected then can be accessed in same class and same
 If we make variable/method public then can be accessed in same class and same package and different package also.
 
 Class:
- A class can’t be private /protected.
- If a class is public then it can be accessed in
-same package/different package.
- If a class is default then it can be accessed
-in same package only.
+A class can’t be private /protected.
+If a class is public then it can be accessed in same package/different package.
+If a class is default then it can be accessed in same package only.
 
 Constructor:
- If we make constructor private then its
-object can be created only in same class but
-in different class.
- If we make constructor default then its
-object can be created in same package but
-not in different package.
- If we make constructor protected then its
-object can be created in same package but
-not in different package.
- If we make constructor public then its
-object can be created in same package and
-in different package also.
+If we make constructor private then its object can be created only in same class but in different class.
+If we make constructor default then its object can be created in same package but not in different package.
+If we make constructor protected then its object can be created in same package but not in different package.
+If we make constructor public then its object can be created in same package and in different package also.
 
 Access Specifier(VIP)
 
