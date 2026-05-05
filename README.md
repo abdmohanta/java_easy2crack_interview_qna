@@ -367,39 +367,8 @@ The area where these immutable objects are being created that area is called as 
 
 
 
-Constructor Overloading
-Here we create more than one constructor in the
-same class provided that they have different
-number of arguments or different types of
-arguments.
 
-JDK - It helps us to compile .java file to .class file.
-JRE - JRE helps us to run .class file.
 
-New Keywords
- It sends request to the class to create
-object.
- New keywords mandatorily call
-constructors.
- Once object is created, then it gets its
-address and stores that in a reference
-variable.
-
-This Keyword
- It is a special reference variable that
-holds object address. This keyword
-creates automatically.
- This keyword points to current object
-running in the program.
- We cannot use This keyword inside
-static method.
- Using This keyword we can call
-constructor.
-
-Constructor Chaining
-When we call a constructor from another
-constructor using This keyword then it is called as
-Constructor Chaining.
 
 Instance Variables
 Instance variables in java are non-static variable
