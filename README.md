@@ -359,88 +359,10 @@ The area where these immutable objects are being created that area is called as 
 
 
 
-Upcasting
-
-📌 Interface
-Contains abstract methods (by default)
-
-Supports multiple inheritance
-
-📌 Can interface have static abstract methods?
-❌ No
-
-👉 Correct Concept:
-
-Static methods in interfaces must have a body
-
-Abstract + static combination is not allowed
-
-📌 Abstraction
-Hiding implementation details and showing only functionality.
-
-👉 Achieved using:
-
-Interface
-
-Abstract class
-
-📌 Abstract Keyword
-Applied on method → method becomes abstract (no body)
-
-Applied on class → class becomes abstract
-
-👉 Note:
-
-Interface methods are abstract by default
-
-📌 Multiple Inheritance
-❌ Not supported in classes
-
-✅ Supported using interfaces
-
-📌 Marker Interface
-Empty interface (no methods)
-
-Example: Serializable
-
-📌 Final Keyword
-Final variable → value cannot change
-
-Final method → cannot be overridden
-
-Final class → cannot be inherited
-
-📌 Java 8 Features
-1. Default Method
-Allows method with body inside interface
-
-2. Functional Interface
-Interface with exactly one abstract method
-
-3. Lambda Expression
-Used to reduce code
-
-Enables functional programming
-
-⚠️ Concept Fixes Done (Important)
-❌ “Constructor is void” → ✅ No return type (not even void)
-
-❌ “Static methods not inherited” → ✅ Inherited but not overridden (method hiding)
-
-❌ “Interface only incomplete methods” → ✅ Can have default & static methods
-
-❌ Grammar + clarity improved across all definitions
-
-📄 Source: 
-
- (Page 1)
-
-If you want, I’ll now give Page 2 cleaned + corrected in same format 👍
 
 
-Do not modify give as it is
 
-Got it 👍 — here is Page 1 EXACT content (no corrections, no modifications) from your PDF:
+
 
 📄 Page 1 (As It Is)
 JAVA NOTES Core Java (Only Theory part)
