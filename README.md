@@ -366,20 +366,6 @@ The area where these immutable objects are being created that area is called as 
 
 
 
-Constructor
- Constructors should have same name
-as that of class.
- Whenever an object is created
-constructor is being called.
- Constructors are permanently void and
-hence they cannot return any value.
- Because it is void we can only use
-keywords in it.
- Supplying values to constructor, then
-yes we can create multiple
-constructors.
- In constructor, method name and class
-name can be same.
 
 Constructor Overloading
 Here we create more than one constructor in the
