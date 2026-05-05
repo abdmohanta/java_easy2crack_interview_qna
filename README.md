@@ -370,42 +370,6 @@ The area where these immutable objects are being created that area is called as 
 
 
 
-Instance Variables
-
-Class Down Casting
-Here we store parent class object address into
-child class reference variable.
-
-Run-Time-Polymorphism
-In run-time-polymorphism we perform overriding
-with class upcasting.
-
-Interface
-Interface can consist of only incomplete method
-in it.
-
-Q3. Can I create static incomplete
-method in an interface?
-Ans- Interface does not support incomplete static
-method because overriding of that is not possible.
-
-Q4. What is abstraction?
-Ans- Hiding of implementation details is called as
-abstraction. The way we achieve this in java is by
-using interface and abstract class.
-
-Abstract Keyword
-When applied on a method it defines that the
-method is incomplete.
-In an interface we can create incomplete method
-e1 without using abstract keyword. Uses of
-abstract keyword here is optional.
-When abstract keyword is applied on a class then
-it means class is incomplete.
-
-Note: In Java, at interface level multiple
-inheritance is possible but at class level it is not
-possible.
 
 Q5. What is Marker Interface?
 Ans- An empty interface is called as marker
