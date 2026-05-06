@@ -201,12 +201,4 @@ Ans: Whenever a user wants to give input via keyboard, in java there is inbuilt 
 Q36. What is Encapsulation?
 Ans: Bundling of data with methods which operate on that data avoiding direct access to the variable is called Encapsulation. To avoid direct access to the variable we makes variable private and to operate on those variable we create getter and setter.
 
-Q37. What is the Differences between interface and abstract class.
-
-
-
-Q38. Access Specifier:
-
-
-
-dfghjkk
+Q37. What is the Differences between interface and abstract cla
