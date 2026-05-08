@@ -458,3 +458,74 @@ public class OneDimensionalArray86 {
 
     }
 }
+
+
+
+
+
+package com.debasish.arraypractice.oneDimensionalArray;
+
+public class OneDimensionalArray88 {
+
+    public static void main(String[] args) {
+
+        // ======================================
+        // PROBLEM 89: LARGEST RECTANGLE IN BINARY MATRIX
+        // ======================================
+
+        // Step 1: create matrix
+        int[][] matrix = {
+                {1, 0, 1, 0, 0},
+                {1, 0, 1, 1, 1},
+                {1, 1, 1, 1, 1},
+                {1, 0, 0, 1, 0}
+        };
+
+        int rows = matrix.length;
+        int cols = matrix[0].length;
+
+        // Step 2: height array
+        int[] heights = new int[cols];
+
+        int maxArea = 0;
+
+        // Step 3: process each row
+        for (int i = 0; i < rows; i++) {
+
+            // update heights
+            for (int j = 0; j < cols; j++) {
+
+                if (matrix[i][j] == 1) {
+                    heights[j] = heights[j] + 1;
+                } else {
+                    heights[j] = 0;
+                }
+            }
+
+            // Step 4: find largest rectangle in histogram
+            for (int start = 0; start < cols; start++) {
+
+                int minHeight = heights[start];
+
+                for (int end = start; end < cols; end++) {
+
+                    if (heights[end] < minHeight) {
+                        minHeight = heights[end];
+                    }
+
+                    int width = end - start + 1;
+
+                    int area = minHeight * width;
+
+                    if (area > maxArea) {
+                        maxArea = area;
+                    }
+                }
+            }
+        }
+
+        // Step 5: print result
+        System.out.println("Largest Rectangle Area: " + maxArea);
+
+    }
+}
