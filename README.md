@@ -529,3 +529,73 @@ public class OneDimensionalArray88 {
 
     }
 }
+
+
+
+
+
+
+
+
+package com.debasish.arraypractice.oneDimensionalArray;
+
+public class OneDimensionalArray89 {
+
+    public static void main(String[] args) {
+
+        // ======================================
+        // PROBLEM 90: MAXIMAL SQUARE
+        // ======================================
+
+        // Step 1: create matrix
+        int[][] matrix = {
+                {1, 0, 1, 0, 0},
+                {1, 0, 1, 1, 1},
+                {1, 1, 1, 1, 1},
+                {1, 0, 1, 1, 1}
+        };
+
+        int rows = matrix.length;
+        int cols = matrix[0].length;
+
+        // Step 2: dp array
+        int[][] dp = new int[rows][cols];
+
+        int maxSide = 0;
+
+        // Step 3: process matrix
+        for (int i = 0; i < rows; i++) {
+
+            for (int j = 0; j < cols; j++) {
+
+                if (matrix[i][j] == 1) {
+
+                    // first row or column
+                    if (i == 0 || j == 0) {
+                        dp[i][j] = 1;
+                    }
+
+                    else {
+
+                        dp[i][j] = 1 + Math.min(
+                                dp[i - 1][j],
+                                Math.min(dp[i][j - 1], dp[i - 1][j - 1])
+                        );
+                    }
+
+                    // update max side
+                    if (dp[i][j] > maxSide) {
+                        maxSide = dp[i][j];
+                    }
+                }
+            }
+        }
+
+        // Step 4: calculate area
+        int area = maxSide * maxSide;
+
+        // Step 5: print result
+        System.out.println("Largest Square Area: " + area);
+
+    }
+}
