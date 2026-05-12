@@ -801,3 +801,67 @@ public class OneDimensionalArray91 {
     }
 }
 
+
+package com.debasish.arraypractice.oneDimensionalArray;
+
+public class OneDimensionalArray92 {
+
+    public static void main(String[] args) {
+
+        // ======================================
+        // PROBLEM 93: SET MATRIX ZEROES
+        // ======================================
+
+        // Step 1: create matrix
+        int[][] matrix = {
+                {1, 1, 1},
+                {1, 0, 1},
+                {1, 1, 1}
+        };
+
+        int rows = matrix.length;
+        int cols = matrix[0].length;
+
+        // Step 2: row & column marker arrays
+        boolean[] zeroRow = new boolean[rows];
+        boolean[] zeroCol = new boolean[cols];
+
+        // Step 3: mark rows and columns
+        for (int i = 0; i < rows; i++) {
+
+            for (int j = 0; j < cols; j++) {
+
+                if (matrix[i][j] == 0) {
+                    zeroRow[i] = true;
+                    zeroCol[j] = true;
+                }
+            }
+        }
+
+        // Step 4: set zeroes
+        for (int i = 0; i < rows; i++) {
+
+            for (int j = 0; j < cols; j++) {
+
+                if (zeroRow[i] || zeroCol[j]) {
+                    matrix[i][j] = 0;
+                }
+            }
+        }
+
+        // Step 5: print matrix
+        System.out.println("Updated Matrix:");
+
+        for (int i = 0; i < rows; i++) {
+
+            for (int j = 0; j < cols; j++) {
+
+                System.out.print(matrix[i][j] + " ");
+            }
+
+            System.out.println();
+        }
+
+    }
+}
+
