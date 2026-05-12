@@ -737,3 +737,67 @@ public class OneDimensionalArray90 {
 
     }
 }
+
+package com.debasish.arraypractice.oneDimensionalArray;
+
+public class OneDimensionalArray91 {
+
+    public static void main(String[] args) {
+
+        // ======================================
+        // PROBLEM 92: ROTATE MATRIX 90 DEGREE
+        // ======================================
+
+        // Step 1: create matrix
+        int[][] matrix = {
+                {1, 2, 3},
+                {4, 5, 6},
+                {7, 8, 9}
+        };
+
+        int n = matrix.length;
+
+        // Step 2: transpose matrix
+        for (int i = 0; i < n; i++) {
+
+            for (int j = i + 1; j < n; j++) {
+
+                int temp = matrix[i][j];
+                matrix[i][j] = matrix[j][i];
+                matrix[j][i] = temp;
+            }
+        }
+
+        // Step 3: reverse each row
+        for (int i = 0; i < n; i++) {
+
+            int left = 0;
+            int right = n - 1;
+
+            while (left < right) {
+
+                int temp = matrix[i][left];
+                matrix[i][left] = matrix[i][right];
+                matrix[i][right] = temp;
+
+                left++;
+                right--;
+            }
+        }
+
+        // Step 4: print rotated matrix
+        System.out.println("Rotated Matrix:");
+
+        for (int i = 0; i < n; i++) {
+
+            for (int j = 0; j < n; j++) {
+
+                System.out.print(matrix[i][j] + " ");
+            }
+
+            System.out.println();
+        }
+
+    }
+}
+
