@@ -863,5 +863,59 @@ public class OneDimensionalArray92 {
         }
 
     }
+
+
+
+package com.debasish.arraypractice.oneDimensionalArray;
+
+public class OneDimensionalArray93 {
+
+    public static void main(String[] args) {
+
+        // ======================================
+        // PROBLEM 94: SEARCH IN 2D MATRIX
+        // ======================================
+
+        // Step 1: create matrix
+        int[][] matrix = {
+                {1, 3, 5, 7},
+                {10, 11, 16, 20},
+                {23, 30, 34, 60}
+        };
+
+        int target = 16;
+
+        int rows = matrix.length;
+        int cols = matrix[0].length;
+
+        boolean found = false;
+
+        // Step 2: search element
+        for (int i = 0; i < rows; i++) {
+
+            for (int j = 0; j < cols; j++) {
+
+                if (matrix[i][j] == target) {
+                    found = true;
+                    break;
+                }
+            }
+        }
+
+        // Step 3: print result
+        if (found) {
+            System.out.println("Element Found");
+        } else {
+            System.out.println("Element Not Found");
+        }
+
+    }
 }
+
+
+
+
+
+
+
 
