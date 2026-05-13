@@ -916,6 +916,81 @@ public class OneDimensionalArray93 {
 
 
 
+package com.debasish.arraypractice.oneDimensionalArray;
 
+public class OneDimensionalArray94 {
+
+    public static void main(String[] args) {
+
+        // ======================================
+        // PROBLEM 95: WORD SEARCH
+        // ======================================
+
+        // Step 1: create board
+        char[][] board = {
+                {'A', 'B', 'C', 'E'},
+                {'S', 'F', 'C', 'S'},
+                {'A', 'D', 'E', 'E'}
+        };
+
+        String word = "ABCCED";
+
+        int rows = board.length;
+        int cols = board[0].length;
+
+        boolean found = false;
+
+        // Step 2: search starting character
+        for (int i = 0; i < rows; i++) {
+
+            for (int j = 0; j < cols; j++) {
+
+                if (board[i][j] == word.charAt(0)) {
+
+                    // simple horizontal + vertical check
+                    if (j + word.length() <= cols) {
+
+                        int k;
+
+                        for (k = 0; k < word.length(); k++) {
+
+                            if (board[i][j + k] != word.charAt(k)) {
+                                break;
+                            }
+                        }
+
+                        if (k == word.length()) {
+                            found = true;
+                        }
+                    }
+
+                    if (i + word.length() <= rows) {
+
+                        int k;
+
+                        for (k = 0; k < word.length(); k++) {
+
+                            if (board[i + k][j] != word.charAt(k)) {
+                                break;
+                            }
+                        }
+
+                        if (k == word.length()) {
+                            found = true;
+                        }
+                    }
+                }
+            }
+        }
+
+        // Step 3: print result
+        if (found) {
+            System.out.println("Word Found");
+        } else {
+            System.out.println("Word Not Found");
+        }
+
+    }
+}
 
 
