@@ -1072,4 +1072,73 @@ public class OneDimensionalArray94 {
 }
 
 
-r
+
+
+package com.debasish.arraypractice.oneDimensionalArray;
+
+public class OneDimensionalArray95 {
+
+    public static void main(String[] args) {
+
+        // ======================================
+        // PROBLEM 96: NUMBER OF ISLANDS
+        // ======================================
+
+        // Step 1: create matrix
+        int[][] grid = {
+                {1, 1, 0, 0},
+                {1, 1, 0, 0},
+                {0, 0, 1, 0},
+                {0, 0, 0, 1}
+        };
+
+        int rows = grid.length;
+        int cols = grid[0].length;
+
+        int islands = 0;
+
+        // Step 2: traverse matrix
+        for (int i = 0; i < rows; i++) {
+
+            for (int j = 0; j < cols; j++) {
+
+                if (grid[i][j] == 1) {
+
+                    islands++;
+
+                    // mark connected cells
+                    markIsland(grid, i, j, rows, cols);
+                }
+            }
+        }
+
+        // Step 3: print result
+        System.out.println("Number of Islands: " + islands);
+
+    }
+
+    // DFS method
+    public static void markIsland(int[][] grid,
+                                  int row,
+                                  int col,
+                                  int rows,
+                                  int cols) {
+
+        // boundary check
+        if (row < 0 || col < 0
+                || row >= rows || col >= cols
+                || grid[row][col] == 0) {
+
+            return;
+        }
+
+        // mark visited
+        grid[row][col] = 0;
+
+        // explore neighbors
+        markIsland(grid, row + 1, col, rows, cols);
+        markIsland(grid, row - 1, col, rows, cols);
+        markIsland(grid, row, col + 1, rows, cols);
+        markIsland(grid, row, col - 1, rows, cols);
+    }
+}
