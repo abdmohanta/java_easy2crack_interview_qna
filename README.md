@@ -1216,4 +1216,76 @@ public class OneDimensionalArray95 {
 
 
 
+package com.debasish.arraypractice.oneDimensionalArray;
 
+public class OneDimensionalArray96 {
+
+    public static void main(String[] args) {
+
+        // ======================================
+        // PROBLEM 97: FLOOD FILL
+        // ======================================
+
+        // Step 1: create image
+        int[][] image = {
+                {1, 1, 1},
+                {1, 1, 0},
+                {1, 0, 1}
+        };
+
+        int startRow = 1;
+        int startCol = 1;
+
+        int newColor = 2;
+
+        int originalColor = image[startRow][startCol];
+
+        // Step 2: perform flood fill
+        fill(image,
+                startRow,
+                startCol,
+                originalColor,
+                newColor);
+
+        // Step 3: print image
+        System.out.println("Updated Image:");
+
+        for (int i = 0; i < image.length; i++) {
+
+            for (int j = 0; j < image[0].length; j++) {
+
+                System.out.print(image[i][j] + " ");
+            }
+
+            System.out.println();
+        }
+
+    }
+
+    // DFS method
+    public static void fill(int[][] image,
+                            int row,
+                            int col,
+                            int originalColor,
+                            int newColor) {
+
+        // boundary check
+        if (row < 0 || col < 0
+                || row >= image.length
+                || col >= image[0].length
+                || image[row][col] != originalColor
+                || image[row][col] == newColor) {
+
+            return;
+        }
+
+        // fill color
+        image[row][col] = newColor;
+
+        // move in 4 directions
+        fill(image, row + 1, col, originalColor, newColor);
+        fill(image, row - 1, col, originalColor, newColor);
+        fill(image, row, col + 1, originalColor, newColor);
+        fill(image, row, col - 1, originalColor, newColor);
+    }
+}
