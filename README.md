@@ -1378,3 +1378,87 @@ public class OneDimensionalArray97 {
 
     }
 }
+
+
+package com.debasish.arraypractice.oneDimensionalArray;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class OneDimensionalArray99 {
+
+    public static void main(String[] args) {
+
+        // ======================================
+        // PROBLEM 100: COURSE SCHEDULE
+        // ======================================
+
+        // Step 1: number of courses
+        int numCourses = 4;
+
+        // prerequisite pairs
+        int[][] prerequisites = {
+                {1, 0},
+                {2, 1},
+                {3, 2}
+        };
+
+        // Step 2: create adjacency matrix
+        int[][] graph = new int[numCourses][numCourses];
+
+        // indegree array
+        int[] indegree = new int[numCourses];
+
+        // build graph
+        for (int i = 0; i < prerequisites.length; i++) {
+
+            int course = prerequisites[i][0];
+            int prerequisite = prerequisites[i][1];
+
+            graph[prerequisite][course] = 1;
+
+            indegree[course]++;
+        }
+
+        // Step 3: add zero indegree nodes
+        Queue<Integer> queue = new LinkedList<>();
+
+        for (int i = 0; i < numCourses; i++) {
+
+            if (indegree[i] == 0) {
+                queue.offer(i);
+            }
+        }
+
+        int completed = 0;
+
+        // Step 4: BFS Topological Sort
+        while (!queue.isEmpty()) {
+
+            int current = queue.poll();
+
+            completed++;
+
+            for (int i = 0; i < numCourses; i++) {
+
+                if (graph[current][i] == 1) {
+
+                    indegree[i]--;
+
+                    if (indegree[i] == 0) {
+                        queue.offer(i);
+                    }
+                }
+            }
+        }
+
+        // Step 5: print result
+        if (completed == numCourses) {
+            System.out.println("All Courses Can Be Completed");
+        } else {
+            System.out.println("Cycle Detected - Cannot Complete Courses");
+        }
+
+    }
+}
+
